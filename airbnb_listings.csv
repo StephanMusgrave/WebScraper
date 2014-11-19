@@ -1,109 +1,19 @@
-Listing title,Price,Description
-"
-                London, Atmospheric Bloomsbury Flat
-              ",116,"
-    Entire home/flat · 13 reviews · St. Pancras, London
-
-"
-"
-                En Suite Room in Modern Apartment!
-              ",65,"
-    Private room · 68 reviews · Shoreditch, Greater London
-
-"
-"
-                Large room in heart of Shoreditch
-              ",55,"
-    Private room · 1 review · London
-
-"
-"
-                Smart and central Notting Hill flat
-              ",130,"
-    Entire home/flat · 11 reviews · Notting Hill, Greater London
-
-"
-"
-                Cosy 1 person bed in South London
-              ",28,"
-    Private room · 10 reviews · London
-
-"
-"
-                **Striking** 2bed, Holborn frm £140
-              ",140,"
-    Entire home/flat · 31 reviews · Bloomsbury, London
-
-"
-"
-                Lovely Room with Private Bathroom!!
-              ",46,"
-    Private room · 61 reviews · LB of Islington, London
-
-"
-"
-                Central Waterloo Apartment
-              ",65,"
-    Private room · 2 reviews · Southwark, Greater London
-
-"
-"
-                Small bright room in Bethnal Green
-              ",45,"
-    Private room · 33 reviews · Bethnal Green, London
-
-"
-"
-                S/C Studio Apt. in Victorian House
-              ",45,"
-    Private room · 37 reviews · New Cross, London
-
-"
-"
-                Heart of London 2014
-              ",58,"
-    Private room · 58 reviews · Southwark, London
-
-"
-"
-                 Lrg Dbl Room Close Central London
-              ",38,"
-    Private room · 194 reviews · City of Westminster, London
-
-"
-"
-                TOP FLOOR FLAT WITH BALCONY ZONE 1
-              ",82,"
-    Entire home/flat · 29 reviews · Lambeth, London
-
-"
-"
-                Cosy 1 Bedroom flat Central London
-              ",109,"
-    Entire home/flat · 31 reviews · Paddington, London
-
-"
-"
-                Central London double room 
-              ",85,"
-    Private room · 4 reviews · London
-
-"
-"
-                Westminster-Private room with bath
-              ",75,"
-    Private room · 75 reviews · Westminster, London
-
-"
-"
-                Quiet & Modern dbl room + bathroom
-              ",55,"
-    Private room · 71 reviews · Bethnal Green, London
-
-"
-"
-                Luxury Shoreditch One Bed Apartment
-              ",125,"
-    Entire home/flat · 6 reviews · Bethnal Green, London
-
-"
+Listing title,Price,Description,Reviews,Location
+"London, Atmospheric Bloomsbury Flat",116,Entire home/flat,13 reviews,"St. Pancras, London"
+En Suite Room in Modern Apartment!,65,Private room,68 reviews,"Shoreditch, Greater London"
+Charming Notting Hill Garden Flat,115,Entire home/flat,50 reviews,"Westbourne Green, London"
+"**Striking** 2bed, Holborn frm £140",140,Entire home/flat,31 reviews,"Bloomsbury, London"
+S/C Studio Apt. in Victorian House,45,Private room,37 reviews,"New Cross, London"
+Central Waterloo Apartment,65,Private room,2 reviews,"Southwark, Greater London"
+Beautiful Flat in Bow,80,Entire home/flat,10 reviews,"Bromley-by-Bow, London"
+Westminster-Private room with bath,75,Private room,75 reviews,"Westminster, London"
+Elegant room 25 mins central London,35,Private room,10 reviews,London
+Marble Arch - Fantastic 1 bedroom,150,Entire home/flat,57 reviews,"City of Westminster, London"
+Cozy double in modern apartment,45,Private room,118 reviews,"Shoreditch, London"
+single room in comfy family home,25,Private room,46 reviews,"LB of Waltham Forest, Chingford"
+Lrg Dbl Room Close Central London,38,Private room,194 reviews,"City of Westminster, London"
+Heart of London 2014,58,Private room,58 reviews,"Southwark, London"
+2-bed Flat in Historic Soho House,147,Entire home/flat,87 reviews,"Soho, London"
+En suite room in fab central flat,75,Private room,27 reviews,"Fitzrovia, Greater London"
+Unique Spacious London Loft,100,Entire home/flat,30 reviews,"Kennington, London"
+Cozy Big double room Notting hill,40,Private room,21 reviews,"Bayswater, London"
