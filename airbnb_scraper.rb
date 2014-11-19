@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'nokogiri'
+require 'csv'
 
 # store the url to be scraped
 url = "https://www.airbnb.co.uk/s/London--United-Kingdom"
@@ -7,17 +8,27 @@ url = "https://www.airbnb.co.uk/s/London--United-Kingdom"
 # Parse the page with Nokugiri
 page = Nokogiri::HTML(open(url))
 
-# Display the listing titles onto the screen
+# store the data in arrays
+name = []
 page.css('div.h5.listing-name').each do |line|
-  puts line.text
+  name << line.text.strip
 end
 
-# Display the listing prices
+price = []
 page.css('span.h3.price-amount').each do |line|
-  puts line.text
+  price << line.text
 end
 
-# Display the listing descriptions
+description = []
 page.css('div.text-muted.listing-location.text-truncate').each do |line|
-  puts line.text
+  description << line.text.strip
+end
+
+# write data to csv file
+CSV.open("airbnb_listings.csv", "w") do |file|
+  file << ["Listing title", "Price", "Description"]
+
+  name.length.times do |i|
+    file << [name[i], price[i], description[i]]
+  end
 end
