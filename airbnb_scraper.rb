@@ -22,7 +22,7 @@ description = []
 
 # loop once for every page of search results
 max_page.to_i.times do |i|
-  
+
   # open search results page
   url = "https://www.airbnb.co.uk/s/London--United-Kingdom?page=#{i+1}"
   page = Nokogiri::HTML(open(url))
@@ -37,7 +37,12 @@ max_page.to_i.times do |i|
   end
 
   page.css('div.text-muted.listing-location.text-truncate').each do |line|
-    description << line.text.strip.split(/ · /)
+    subarray = line.text.strip.split(/ · /)
+    if subarray.length == 3
+      description << subarray
+    else
+      description << [subarray[0], "0 reviews", subarray[1]]
+    end
   end
 
 end
