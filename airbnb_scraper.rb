@@ -14,6 +14,7 @@ page.css("div.pagination ul li a[target]").each do |line|
   page_numbers << line.text
 end
 max_page = page_numbers.max
+puts "max_page: #{max_page}"
 
 # initialize empty arrays
 name = []
@@ -28,12 +29,21 @@ max_page.to_i.times do |i|
   page = Nokogiri::HTML(open(url))
 
   # store the data in arrays
-    page.css('div.h5.listing-name').each do |line|
+    # page.css('div.h5.listing-name').each do |line|
+    page.css('listing-name').each do |line|
     name << line.text.strip
+    puts "name: #{name}"
   end
+
+# <h3 title="Flat in CENTRAL LONDON!" class="h5 listing-name text-truncate row-space-top-1">        
+# </h3>
+# <div class="text-muted listing-location text-truncate"><a href="/rooms/5676286?s=NiGQ" class="text-normal link-reset">
+# </a>
+# </div>
 
   page.css('span.h3.price-amount').each do |line|
     price << line.text
+    # puts "price: #{price}"
   end
 
   page.css('div.text-muted.listing-location.text-truncate').each do |line|
